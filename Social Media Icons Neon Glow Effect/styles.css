@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  padding: 0%;
+  background-color: #fff;
+  margin: 0;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.btn {
+  margin: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(245, 241, 241);
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s;
+  align-items: center;
+  border-radius: 12px;
+  margin-left: 2em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+i.fa {
+  font-size: 44px;
+}
+.fb-btn {
+  color: rgb(0, 68, 255);
+  box-shadow: 0px 20px 20px -17px rgb(0, 64, 255);
+  text-shadow: 0px 0px 30px rgb(116, 127, 227);
+}
+.ig-btn {
+  color: rgb(239, 76, 76);
+  box-shadow: 0px 20px 20px -17px rgb(239, 91, 91);
+  text-shadow: 0px 0px 30px rgb(221, 64, 83);
+}
+.tw-btn {
+  color: rgb(94, 147, 247);
+  box-shadow: 0px 20px 20px -17px rgb(94, 147, 247);
+  text-shadow: 0px 0px 30px rgb(165, 210, 244);
+}
+.gh-btn {
+  color: rgb(45, 39, 39);
+  box-shadow: 0px 20px 20px -17px rgb(37, 36, 36);
+  text-shadow: 0px 0px 30px rgb(108, 106, 106);
+}
+.yt-btn {
+  color: red;
+  box-shadow: 0px 20px 20px -17px rgb(229, 89, 89);
+  text-shadow: 0px 0px 30px rgb(206, 103, 108);
+}
+.btn.fb-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 30px 40px -15px rgb(73, 115, 239);
+}
+.btn.ig-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 30px 40px -15px rgb(240, 134, 134);
+}
+.btn.tw-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 30px 40px -15px rgb(99, 134, 241);
+}
+.btn.gh-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 30px 40px -15px rgb(116, 117, 117);
+}
+.btn.yt-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 30px 40px -15px rgb(244, 94, 106);
+}
