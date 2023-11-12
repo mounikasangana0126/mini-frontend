@@ -1,2 +1,9 @@
 # mini-frontend
-frontend practice
+
+## Frontend practice
+
+## Tech stack:
+
+- \*\*HTML
+- \*\*CSS
+- \*\*JS
